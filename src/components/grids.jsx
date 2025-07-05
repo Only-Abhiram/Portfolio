@@ -24,7 +24,6 @@ export default function PortfolioGrid() {
                                 status="Online"
                                 contactText="Connect"
                                 avatarUrl={profilePic}
-                                // grainUrl={grain}
                                 showUserInfo={true}
                                 enableTilt={true}
                                 onContactClick={() => {
