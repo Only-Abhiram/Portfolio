@@ -2,7 +2,7 @@ import ScrambledText from './scrambletxt';
 import {useRef} from 'react';
 export default function Card2({ title, description, link }) {
     const containerRef = useRef(null);
-    return <div className='flex flex-col justify-between '>
+    return <div className='flex flex-col justify-between gap-2 '>
         <h2 className='text-purple-500'>{title}</h2>
         <div className=''
             ref={containerRef}

@@ -61,10 +61,10 @@ export default function PortfolioGrid() {
                                 isTilted={true}
                                 tiltDirection='right'
                                 autoplay={true}
-                                autoplaySpeed={1.5}
+                                autoplaySpeed={2}
                                 autoplayDirection="down"
                                 pauseOnHover={true}
-                                negativeMargin={'-2em'}
+                                negativeMargin={'-3em'}
                             />
                         </div>
                     </div>
