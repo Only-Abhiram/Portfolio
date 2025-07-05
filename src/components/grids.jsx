@@ -28,7 +28,7 @@ export default function PortfolioGrid() {
                                 showUserInfo={true}
                                 enableTilt={true}
                                 onContactClick={() => {
-                                    alert("mail: abhi1scienntist@gmail.com");
+                                    alert("mail: abhi1scientist@gmail.com");
                                 }}
                             />
                         </div>
