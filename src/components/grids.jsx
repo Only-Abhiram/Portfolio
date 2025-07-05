@@ -32,7 +32,7 @@ export default function PortfolioGrid() {
                                 }}
                             />
                         </div>
-                        <div className="text-white w-full  backdrop-blur-lg rounded-2xl opacity-0 animate-[fadeInTop_1s_ease-out_forwards] delay-1000">
+                        <div className="text-white w-full   rounded-2xl opacity-0 animate-[fadeInTop_1s_ease-out_forwards] delay-1000">
                             <Cp />
                         </div>
                     </div>
