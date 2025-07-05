@@ -1,0 +1,23 @@
+
+@import 'tailwindcss';
+
+:root {
+  
+  height: 100%;
+  width: 100%;
+
+  
+}
+#root{
+  height: 100%;
+  width: 100%;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  height: 100%;
+  width: 100%;
+}

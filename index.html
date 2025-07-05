@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Vite + React</title>
+  <style>
+    @keyframes fadeInTop {
+      0% {
+        opacity: 0;
+        transform: translateY(-100px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInBottom {
+      0% {
+        opacity: 0;
+        transform: translateY(100px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInLeft {
+      0% {
+        opacity: 0;
+        transform: translateX(-100px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes fadeInRight {
+      0% {
+        opacity: 0;
+        transform: translateX(100px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    
+    .delay-2000 {
+      animation-delay: 2000ms;
+    }
+    .delay-500 {
+      animation-delay: 500ms;
+    }
+    .delay-1000 {
+      animation-delay: 1000ms;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root" style="font-family: 'MuseoModerno', sans-serif;
+  font-weight: 200;
+  "></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
