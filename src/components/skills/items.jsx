@@ -66,7 +66,7 @@
     {
       content: (
         <div className="flex flex-col items-center justify-center gap-2 text-white">
-          <img src="https://img.icons8.com/?size=100&id=66746&format=png&color=000000" alt="Next.js" />
+          <img src="https://img.icons8.com/?size=100&id=gwR0hbBi5JeZ&format=png&color=FFFFFF" alt="Next.js" />
           <p className="text-sm">Next.js</p>
         </div>
       )
@@ -90,7 +90,7 @@
     {
       content: (
         <div className="flex flex-col items-center justify-center gap-2 text-white">
-          <img src="https://img.icons8.com/?size=100&id=21888&format=png&color=000000" alt="APIs" />
+          <img src="https://img.icons8.com/?size=100&id=54907&format=png&color=000000" alt="APIs" />
           <p className="text-sm">APIs</p>
         </div>
       )
