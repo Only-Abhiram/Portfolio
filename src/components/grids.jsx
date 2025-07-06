@@ -38,7 +38,7 @@ export default function PortfolioGrid() {
 
                     <div className="bg-black text-white p-5 rounded-2xl   opacity-0 animate-[fadeInBottom_1s_ease-out_forwards] delay-2000">
                         <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5'>
-                            <Card2 title={'Intern @ DigitalGuruji'} description={'Built frontend developer tools like JS/CSS Tools, Text Format Validators, and Text-Encoders & Decoders —used to boost productivity.'} link={'#'}/>
+                            <Card2 title={'Intern @ DigitalGuruji'} description={'Built developer tools like JS/CSS Tools, Text Format Validators, and Text-Encoders & Decoders —used to boost productivity.'} link={'#'}/>
                             <Card2 title={'Project - Email Notification Automation:'} description={'Developed a Node.js backend using Gmail API and Gemini AI to analyze emails, prioritize content, and send smart summaries via WhatsApp using Meta’s API.'} link={'#'}/>
                             <Card2 title={'Hack Arena Hackathon'} description={'Created a blockchain-based healthcare system for secure, decentralized medical records using smart contracts, React, and Tailwind CSS.'} link={'#'}/>
                             
