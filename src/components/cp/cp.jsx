@@ -1,7 +1,7 @@
 import CountUp from './count.jsx';
 import CardWrapper from './cardwrapper.jsx'
 function Card({ name, link, image }) {
-    return <a href={link} className="flex justify-between hover:text-purple-500 p-2 rounded-xl hover:bg-gray-500/20">
+    return <a href={link} target='_blank' className="flex justify-between hover:text-purple-500 p-2 rounded-xl hover:bg-gray-500/20">
         <div>{name}</div>
         <img className="h-5" src={image} alt="link" />
     </a>
@@ -39,10 +39,10 @@ export default function Cp() {
                     </div>
                 </div>
                 <div className="flex flex-col gap-5">
-                    <Card name={'Leetcode'} link={''} image={'https://img.icons8.com/?size=100&id=zWS3SNRj7odb&format=png&color=FFFFFF'} />
-                    <Card name={'CodeForces'} link={''} image={'https://img.icons8.com/?size=100&id=zWS3SNRj7odb&format=png&color=FFFFFF'} />
-                    <Card name={'GeeksForGeeks'} link={''} image={'https://img.icons8.com/?size=100&id=zWS3SNRj7odb&format=png&color=FFFFFF'} />
-                    <Card name={'CodeChef'} link={''} image={'https://img.icons8.com/?size=100&id=zWS3SNRj7odb&format=png&color=FFFFFF'} />
+                    <Card name={'Leetcode'} link={'https://leetcode.com/u/Abhiram-06/'} image={'https://img.icons8.com/?size=100&id=zWS3SNRj7odb&format=png&color=FFFFFF'} />
+                    <Card name={'CodeForces'} link={'https://codeforces.com/profile/Abhiram_Palle'} image={'https://img.icons8.com/?size=100&id=zWS3SNRj7odb&format=png&color=FFFFFF'} />
+                    <Card name={'GeeksForGeeks'} link={'https://www.geeksforgeeks.org/user/abhiram_06/'} image={'https://img.icons8.com/?size=100&id=zWS3SNRj7odb&format=png&color=FFFFFF'} />
+                    <Card name={'CodeChef'} link={'https://www.codechef.com/users/am_abhiram'} image={'https://img.icons8.com/?size=100&id=zWS3SNRj7odb&format=png&color=FFFFFF'} />
                 </div>
             </div>
     </CardWrapper>
