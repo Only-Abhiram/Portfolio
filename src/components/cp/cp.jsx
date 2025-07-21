@@ -16,7 +16,7 @@ export default function Cp() {
                         <div className='text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>
                             <CountUp
                                 from={0}
-                                to={706}
+                                to={730}
                                 separator=","
                                 direction="up"
                                 duration={3}
@@ -29,7 +29,7 @@ export default function Cp() {
                         <div className='text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>
                             <CountUp
                                 from={0}
-                                to={33}
+                                to={36}
                                 separator=","
                                 direction="up"
                                 duration={3}

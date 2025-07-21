@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    {/* <div className="absolute  h-full w-full bg-black">
+      {/* <div className="absolute  h-full w-full bg-black">
         <Lightning
           hue={220}
           xOffset={0}
@@ -19,9 +19,20 @@ function App() {
         />
       </div> */}
       <div className='relative h-full w-full overflow-x-hidden bg-black' >
-        <PortfolioGrid/>
+        <PortfolioGrid />
+        {/* <Particles
+          particleColors={['#ffffff', '#ffffff']}
+          particleCount={200}
+          particleSpread={10}
+          speed={0.1}
+          particleBaseSize={100}
+          moveParticlesOnHover={true}
+          alphaParticles={false}
+          disableRotation={false}
+        /> */}
       </div>
       
+
     </>
   )
 }
