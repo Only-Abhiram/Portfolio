@@ -183,6 +183,7 @@
   
   .pc-avatar-content .avatar {
     width: 100%;
+    height: 100%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%) scale(1);
@@ -304,7 +305,7 @@
     margin: 0;
     font-size: min(5svh, 3em);
     margin: 0;
-    background-image: linear-gradient(to bottom, #fff, #6f6fbe);
+    background-image: linear-gradient(to bottom, #ffffff, #3f3f4f);
     background-size: 1em 1.5em;
     -webkit-text-fill-color: transparent;
     background-clip: text;
